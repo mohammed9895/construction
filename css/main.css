@@ -1,0 +1,168 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+.table {
+    display: table;
+    widows: 100%;
+    height: 100%;
+}
+.table-cell {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.title {
+    margin-bottom: 20px;
+}
+.title h1 {
+    color: #1abc9c;
+    font-weight: bold;
+}
+.title .border {
+    width: 50px;
+    height: 3px;
+    background: #1abc9c;
+    margin: 20px auto 0px auto;
+}
+
+
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.46);
+    margin: 0px;
+}
+.navbar-default {
+    background: #fff;
+}
+.navbar-brand {
+    padding: 30px 15px;
+}
+.navbar-default .navbar-brand {
+    color: #1abc9c;
+}
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #1abc9c;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #16a085;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('../img/hero.jpeg') fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.welcome {
+    height: 500px;
+}
+.welcome h1 {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.welcome a {
+    background: #1abc9c;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.s_item {
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+.s_item:first-child {
+    border-left: 1px solid #ddd;
+}
+.s_item .s_icon {
+    color: #999;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.s_item h4 {
+    color: #999;
+}
+.s_item p {
+    color: #999;
+    line-height: 30px;
+}
+
+/* About Section */
+.about {
+    background: url('../img/hero.jpeg') fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.inner_about {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px 0px;
+}
+.inner_about p {
+    color: #999;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+/* Work Section */
+.work {
+    margin: 50px 0px;
+}
+.w_item {
+    margin-bottom: 30px;
+}
+
+/* Contact Us Section */
+.contact input, textarea {
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+.footer {
+    background: #fff;
+    padding: 40px 0px;
+}
+.footer p {
+    color: #666;
+    font-size: 16px;
+}
+.footer a {
+    color: #1abc9c;
+    margin-right: 10px;
+}
+.footer a:hover {
+    color: #16a085;
+}
+.footer a i {
+    font-size: 20px;
+}
+
